@@ -39,4 +39,4 @@ fields:
   hidden: true
   default: post
 pages:
-- _posts/some-title.md
+- _posts/2020-02-26-some-title.md
