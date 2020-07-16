@@ -2,6 +2,18 @@
 label: landing-page
 hide_body: false
 fields:
+- name: featured_post
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: jekyll-posts
+      file: 
+      path: 
+  label: Featured Post
 - name: title
   label: Title
   type: text
@@ -78,17 +90,5 @@ fields:
   type: text
   hidden: true
   default: home
-- name: featured_post
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: jekyll-posts
-      file: 
-      path: 
-  label: Featured Post
 pages:
 - index.md
